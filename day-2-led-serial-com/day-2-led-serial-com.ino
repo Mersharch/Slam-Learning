@@ -5,6 +5,11 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   Serial.println("ESP32 Started!");
+  Serial.println("System Check OK");
+delay(1000);
+Serial.println("Robot Booting");
+delay(1000);
+Serial.println("Ready for Sensors");
 }
 
 void loop() {
